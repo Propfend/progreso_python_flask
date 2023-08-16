@@ -7,7 +7,7 @@ site = Flask('__name__')
 
 @site.route('/ola')
 def ola():
-    return render_template('base.html')
+    return render_template('index.html')
 
 
 if __name__ == '__main__':
